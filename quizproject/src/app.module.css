@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Russo+One&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: black;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #fcfcfc, rgb(174, 225, 255));
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+.main {
+  margin-top: 100px;
+}
+.text {
+  font-family: "Heebo", sans-serif;
+  font-family: "Russo One", sans-serif;
+  font-size: 37px;
+  color: rgb(54, 54, 54);
+}
+.counter {
+  font-family: "Heebo", sans-serif;
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
+  color: rgb(34, 34, 34);
+}
+.buttonBlock {
+  display: flex;
+  width: 520px;
+  justify-content: space-between;
+}
+.minusButton {
+  height: 50px;
+  width: 250px;
+  background-color: #ff4444;
+  border-radius: 6px;
+  transition-duration: 1s;
+  transition-property: all;
+}
+.minusButton:hover {
+  background-color: #ff0000;
+}
+.plusButton {
+  height: 50px;
+  width: 250px;
+  background-color: #44ff5d;
+  border-radius: 6px;
+  transition-duration: 1s;
+  transition-property: all;
+}
+.plusButton:hover {
+  background-color: #00ff22;
+}
+.infoBlock {
+  width: 520px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  font-family: "Heebo", sans-serif;
+  font-family: "Russo One", sans-serif;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
